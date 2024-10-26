@@ -1,0 +1,92 @@
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+}
+
+.background {
+    height: 100vh;
+    left: 0;
+    position: absolute;
+}
+
+.info {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 25%;
+    border-radius: 22px; 
+    border: 1px solid #999999;
+    color: #999999;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 40px;
+}
+
+button {
+    border-radius: 22px; 
+    min-width: 150px;
+    border: 1px solid #999999;
+    color: #999999;
+    background: #2D333B;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.perfil {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 480px;
+}
+
+.profile {
+    width: 8%;
+    border-radius: 60px;
+    border: 2px solid #E5E5E5;
+    margin-right: 30px;
+}
+
+.perfil h3 {
+    color: #999999;
+    font-family: 'Roboto';
+    font-size: 16px;
+    width: 400px;
+}
+
+.perfil span {
+    color: #999999;
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+
+.perfil p {
+    color: #999999;
+    font-family: 'Roboto';
+    font-size: 13px;
+    margin-top: 10px;
+    width: 90%;
+}
+
+hr {
+    min-width: 37%;
+    margin-top: 40px;
+    margin-left: 480px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin-bottom: 25px;
+}

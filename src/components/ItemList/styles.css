@@ -1,0 +1,14 @@
+.item-list strong {
+    color: #539BF5;
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin-left: 500px;
+}
+
+.item-list p{
+    color: #999999;
+    font-family: 'Roboto';
+    font-size: 12px;
+    margin-top: 24px;
+    margin-left: 500px;
+}
